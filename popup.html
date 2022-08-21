@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+      <div class="header">
+        <h3>Citation Generator</h1>
+          <label for="citation_styles"></label>
+          <select id="citation_styles" name="citations_styles">
+          <option value="apa">APA</option>
+          <option value="harvard1">Harvard</option>
+          <option value="modern-language-association-with-url">MLA</option>
+          <option value="chicago-author-date">Chicago</option>
+          <option value="Vancouver">Vancouver</option>
+        </select>
+        <i id= "copy" class="fa fa-copy" style="font-size:20px"></i>
+      </div>
+
+        <ul id="data">
+           
+        </ul>
+        <div class="buttons">
+            <button id="get-url" class= "side">Generate Citation</button>
+            <button id="clear-data" class="side">Clear</button>
+        </div>
+
+
+
+    <script src="popup.js"></script>
+  </body>
+</html>
+
